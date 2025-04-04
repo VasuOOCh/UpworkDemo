@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div className='rounded-[50px] w-full relative'>
             <div className='relative w-full h-[650px]'   >
-                <Image className='rounded-[50px] object-cover' src={'/hero.png'} alt='hero_image' fill />
+                <Image className='rounded-[50px] object-cover' src={'/hero.jpeg'} alt='hero_image' fill />
             </div>
 
             {/* TEXT 1 */}

@@ -52,8 +52,17 @@ const details = [
 const BottomSection = () => {
     return (
         <div className=''>
-            <h1 className='text-2xl font-extrabold p-4 text-center my-4'>TOP TALENTS READY TO HELP</h1>
 
+            <div className='flex items-center justify-center'>
+                <div className='h-fit m-4'>
+                    <h1 className='text-2xl font-extrabold text-center my-4'>TOP TALENTS READY TO HELP</h1>
+                    <div className='flex'>
+                        <div className='w-1/2'></div>
+                        <div className='w-1/2 bg-[#CBEC5E] h-1'></div>
+                    </div>
+                </div>
+
+            </div>
             <div className='flex flex-row'>
                 <div className='w-3/5 flex flex-wrap gap-4'>
                     {
